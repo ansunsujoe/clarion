@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "clarion",
+    "slug": "clarion",
+    "version": "1.0.0",
+
+    "web": {
+      "favicon": "./assets/clarion.png"
+    },
+
+    "experiments": {
+      "tsconfigPaths": true,
+      "newArchEnabled": true
+    },
+
+    "plugins": [],
+
+    "orientation": "portrait",
+    "icon": "./assets/clarion.png",
+
+    "userInterfaceStyle": "light",
+
+    "splash": {
+      "image": "./assets/clarion.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/clarion.png",
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}
